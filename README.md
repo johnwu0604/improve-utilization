@@ -4,7 +4,7 @@ This documentation gives tips on how to optimize or debug the utilization of you
 
 ## My GPU has zero utilization
 
-![No GPU](./no-gpu.png)
+![No GPU](./no-gpu.PNG)
 
 If your GPU is not being used, it can likely be a error in your training script. Try one of the following tips:
 
@@ -16,7 +16,7 @@ If your GPU is not being used, it can likely be a error in your training script.
 
 ## The GPU never reaches full utilization
 
-![Low Utilization](./low-util.png)
+![Low Utilization](./low-util.PNG)
 
 If your GPU never reaches full utilization, this means that you are not feeding the GPU the maximum amount of data that it can handle. Try one of the following tips:
 
@@ -34,7 +34,7 @@ If your GPU never reaches full utilization, this means that you are not feeding 
 
 ## The maximum GPU utilization is high, but there are periods where utilization decreases or goes to zero
 
-![Low Utilization](./dips.png)
+![Low Utilization](./dips.PNG)
 
 If your GPU has periods where it is not busy, this means the GPU is waiting for data in between batch or epoch cycles. Try one of the following tips:
 
@@ -44,7 +44,7 @@ If your GPU has periods where it is not busy, this means the GPU is waiting for 
 
 ## Some of the GPUs have higher utilization than other GPUs in a distributed run
 
-![Low Some Nodes](./low-some-nodes.png)
+![Low Some Nodes](./low-some-nodes.PNG)
 
 If some nodes have much higher utilization than other nodes, this means there is likely a bottle neck in your network communication. Try one of the follow tips:
 
